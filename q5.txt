@@ -1,0 +1,6 @@
+1. The change inside the increment_int_a doesn't change the variable a after the function has been called (NO)
+2. The change inside the increment_int_b does change the variable b after the function has been called (YESS
+3. Increment_int_a differs from increment_int_b because increment_int_a is passed by value while increment_int_b is passed by reference
+Also, integers are immutable in Python which means that modifications to an integer will create a new integer object in the memory and
+changes that are made will be done to that copy and will not affect the original variable value. On the other hand, if they are in 
+a list, the value becomes mutable meaning that changes that hapen will affect the original variable as well. 
